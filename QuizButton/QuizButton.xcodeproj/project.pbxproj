@@ -10,9 +10,7 @@
 		CE11B2472A78F0340080E93B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE11B2462A78F0340080E93B /* AppDelegate.swift */; };
 		CE11B2492A78F0340080E93B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE11B2482A78F0340080E93B /* SceneDelegate.swift */; };
 		CE11B24B2A78F0340080E93B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE11B24A2A78F0340080E93B /* ViewController.swift */; };
-		CE11B24E2A78F0340080E93B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE11B24C2A78F0340080E93B /* Main.storyboard */; };
 		CE11B2502A78F0350080E93B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE11B24F2A78F0350080E93B /* Assets.xcassets */; };
-		CE11B2532A78F0350080E93B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE11B2512A78F0350080E93B /* LaunchScreen.storyboard */; };
 		CE11B25E2A78F0350080E93B /* QuizButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE11B25D2A78F0350080E93B /* QuizButtonTests.swift */; };
 		CE11B2682A78F0350080E93B /* QuizButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE11B2672A78F0350080E93B /* QuizButtonUITests.swift */; };
 		CE11B26A2A78F0350080E93B /* QuizButtonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE11B2692A78F0350080E93B /* QuizButtonUITestsLaunchTests.swift */; };
@@ -40,9 +38,7 @@
 		CE11B2462A78F0340080E93B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE11B2482A78F0340080E93B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CE11B24A2A78F0340080E93B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CE11B24D2A78F0340080E93B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE11B24F2A78F0350080E93B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CE11B2522A78F0350080E93B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE11B2542A78F0350080E93B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE11B2592A78F0350080E93B /* QuizButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE11B25D2A78F0350080E93B /* QuizButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizButtonTests.swift; sourceTree = "<group>"; };
@@ -102,9 +98,7 @@
 				CE11B2462A78F0340080E93B /* AppDelegate.swift */,
 				CE11B2482A78F0340080E93B /* SceneDelegate.swift */,
 				CE11B24A2A78F0340080E93B /* ViewController.swift */,
-				CE11B24C2A78F0340080E93B /* Main.storyboard */,
 				CE11B24F2A78F0350080E93B /* Assets.xcassets */,
-				CE11B2512A78F0350080E93B /* LaunchScreen.storyboard */,
 				CE11B2542A78F0350080E93B /* Info.plist */,
 			);
 			path = QuizButton;
@@ -231,9 +225,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE11B2532A78F0350080E93B /* LaunchScreen.storyboard in Resources */,
 				CE11B2502A78F0350080E93B /* Assets.xcassets in Resources */,
-				CE11B24E2A78F0340080E93B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,25 +287,6 @@
 			targetProxy = CE11B2642A78F0350080E93B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		CE11B24C2A78F0340080E93B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE11B24D2A78F0340080E93B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CE11B2512A78F0350080E93B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE11B2522A78F0350080E93B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CE11B26B2A78F0350080E93B /* Debug */ = {
@@ -442,7 +415,6 @@
 				INFOPLIST_FILE = QuizButton/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +442,6 @@
 				INFOPLIST_FILE = QuizButton/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
